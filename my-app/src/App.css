@@ -1,0 +1,110 @@
+/* .app {
+  background: linear-gradient(to top, #000, #004080);
+  overflow-x: hidden;
+} */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw; /* Prevent horizontal scrolling */
+  height: 100vh; /* Prevent vertical scrolling */
+  overflow: hidden; /* Disable scrolling */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: url('https://ok2showup-frontend.s3.us-east-2.amazonaws.com/landingPageImg.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.header {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.logo{
+  height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00b4d8;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-primary {
+  background-color: #0077b6;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0096c7;
+}
+
+.btn-secondary {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #495057;
+}

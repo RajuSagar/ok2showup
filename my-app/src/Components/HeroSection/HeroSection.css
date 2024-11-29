@@ -1,0 +1,73 @@
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000, #002244);
+    overflow: hidden;
+  }
+  
+  .hero-section .content {
+    z-index: 1;
+  }
+  
+  .hero-section .title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section .subtitle {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+  }
+  
+  .hero-section .buttons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .hero-section .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .hero-section .btn-primary {
+    background-color: #0077b6;
+    color: white;
+  }
+  
+  .hero-section .btn-primary:hover {
+    background-color: #0096c7;
+  }
+  
+  .hero-section .btn-secondary {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .hero-section .btn-secondary:hover {
+    background-color: #495057;
+  }
+  
+  .hero-section .background-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: url('https://ok2showup-frontend.s3.us-east-2.amazonaws.com/landingPageImg.png') center/cover no-repeat;
+    opacity: 0.8;
+    z-index: 0;
+  }
+  

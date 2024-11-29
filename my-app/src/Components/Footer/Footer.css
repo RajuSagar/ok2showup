@@ -1,0 +1,13 @@
+.footer {
+    background-color: #000;
+    color: #ccc;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  

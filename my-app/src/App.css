@@ -15,7 +15,7 @@ body, html {
 .container {
   height: 100vh;
   background: url('https://ok2showup-frontend.s3.us-east-2.amazonaws.com/landingPageImg.png') no-repeat center center fixed;
-  background-size: cover;
+  background-size: 127%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,6 +34,9 @@ body, html {
 
 .header {
   font-size: 1.8rem;
+  font-weight: bold;
+}
+.textSize{
   font-weight: bold;
 }
 .logo{

@@ -6,7 +6,7 @@ const App = () => {
     <div className="container">
       <header className="header">
         <div className="logo">
-          <img src='https://ok2showup-frontend.s3.us-east-2.amazonaws.com/logo192.png' alt='logo' />
+          <img src='https://ok2showup-frontend.s3.us-east-2.amazonaws.com/logo192.png' alt='logo' className='logo' />
         </div>
         <nav>
           <ul className="nav-links">
@@ -18,7 +18,7 @@ const App = () => {
       </header>
       <section className="hero">
         <h1>Step Up, Stand Out</h1>
-        <p>Unlock your potential today with impactful strategies that drive results.</p>
+        <p className='textSize'>Unlock your potential today with impactful strategies that drive results.</p>
         <div className="buttons">
           <button className="btn btn-primary">Get Started</button>
           <button className="btn btn-secondary">Learn More</button>
